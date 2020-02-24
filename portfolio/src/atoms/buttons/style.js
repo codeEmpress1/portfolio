@@ -1,14 +1,11 @@
-// import React from 'react'
 import Styled from 'styled-components'
-// import Button from '@material-ui/core/Button'
-import { primaryDark } from '../colors'
-const StyledButton = Styled('Button')`
+// import { primaryDark } from '../colors'
+import color from '../colors/mixin'
+const Button = Styled('Button')`
 padding: .5rem 1rem;
 border-radius: 1rem;
-background-color: ${primaryDark};
-// color: ${primaryDark};
+background-color: ${color}
 font-weight: bold;
-color
 `
 
-export default StyledButton
+export default Button
