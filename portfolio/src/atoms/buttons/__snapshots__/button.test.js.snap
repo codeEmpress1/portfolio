@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`shows difference between 2 buttons 1`] = `
+<div
+  className="sc-AxjAm elrVCD"
+  color="primary"
+/>
+`;
