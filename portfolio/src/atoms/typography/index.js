@@ -1,27 +1,11 @@
-import { fontSize, fontWeight, fontFamily, } from './mixin'
+import { fontSize, fontWeight } from './mixin'
 import styled from 'styled-components'
-import { createGlobalStyle } from 'styled-components'
+import color from '../colors'
 
-const globalStyle = createGlobalStyle`
-@import url('https://fonts.googleapis.com/css?family=Akronim|Pacifico&display=swap');
-`
-const Header = styled.h2`
+export const Header = styled.h2`
     ${fontSize};
     text-align: center;
-    font-family: ${fontFamily},
+    font-family: ${props => props.fontFamily},
     ${fontWeight};
-    padding: ${props => props.padding ? props.padding : 0};
-    margin: ${props => props.margin ? props.margin : 0};
+    color: ${color};
     `
-
-export const Paragraph = styled.p`
-    ${Header};
-    line-spacing: ${letterSpacing}
-`
-
-
-export const Span = styled.span`
-    ${StyledParagraph}
-    text-align: left;
-`
-export default Header

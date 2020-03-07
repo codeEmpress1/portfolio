@@ -1,5 +1,5 @@
 import Styled from 'styled-components'
-import { color } from '../colors/mixin';
+import { color } from '../colors';
 
 const Icon = Styled.div`
 border: none;
@@ -10,7 +10,7 @@ width: ${props => props.width ? props.width : '5rem'};
 height: ${props => props.height ? props.heigth : '5rem'};
 background-color: ${color};
 display: flex;
-// flex-direction: row-reverse;
+// box-shadow: 0.5px 1px ;
 `
 
 export default Icon

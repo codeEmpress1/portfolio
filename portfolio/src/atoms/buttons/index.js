@@ -1,7 +1,17 @@
 import React from 'react'
 import StyledButton from './style'
-// import Button from '@material-ui/core/Button'
+// import { ThemeProvider } from 'styled-components'
 
-const MyButton = (props) => <StyledButton>{props.children}</StyledButton>
+// const theme = {
+//     mode: 'light'
+// }
 
-export default MyButton
+const Button = ({children}) => {
+    return (
+        // <ThemeProvider theme={theme}>
+            <StyledButton color = 'primary'>{children}</StyledButton>
+        // </ThemeProvider>
+    )
+}
+
+export default Button

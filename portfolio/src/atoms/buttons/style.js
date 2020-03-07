@@ -1,10 +1,11 @@
-import Styled from 'styled-components'
+import styled from 'styled-components'
 // import { primaryDark } from '../colors'
-import color from '../colors/mixin'
-const Button = Styled('Button')`
+import color from '../colors'
+const Button = styled.div`
+width: 5rem;
 padding: .5rem 1rem;
 border-radius: 1rem;
-background-color: ${color}
+background-color: ${color};
 font-weight: bold;
 `
 

@@ -5,10 +5,10 @@ import { ThemeProvider } from 'styled-components'
 const theme = {
     mode: 'light'
 }
-const StyledIcon = ({width, height, children}) => {
+const StyledIcon = (props) => {
     return (
         <ThemeProvider theme = {theme}>
-            <Icon width={width} height={height} color='primary'>{children}</Icon>
+            <Icon color='primary' {...props}>{props.children}</Icon>
         </ThemeProvider>
     )
 }
