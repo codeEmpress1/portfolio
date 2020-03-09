@@ -9,15 +9,14 @@ function App() {
 
   return (
     <ErrorBoundary>
-    <div className="App">
-    <ContextProvider>
-           <Suspense fallback={<div>Loading...</div>}>
-    {/* <h1>Hiiiiiiiiiii</h1> */}
-             <Page1/>
-           </Suspense> 
-    </ContextProvider>
-    </div>
-     </ErrorBoundary>
+      <div className="App">
+        <ContextProvider>
+          <Suspense fallback={<div>Loading...</div>}>
+            <Page1/>
+          </Suspense>
+        </ContextProvider>
+      </div>
+    </ErrorBoundary>
   );
 }
 
