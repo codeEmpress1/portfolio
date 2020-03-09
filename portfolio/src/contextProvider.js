@@ -11,17 +11,16 @@ const ContextProvider = props => {
     sessionStorage.setItem("mode", newMode)
   };
 
-  useEffect(() => {
-    let value = sessionStorage
-      .getItem("mode")
-      setMode(value)
-
+  // useEffect(() => {
+  //   let value = sessionStorage.getItem("mode");
+  //   setMode(value);
+  //   });
+    
   return (
-    <ModeContext.Provider value={{ toogleMode, mode }}>
+    <ModeContext.Provider value={{ mode, toogleMode }}>
       <ThemeProvider theme={{ mode }}>{props.children}</ThemeProvider>
     </ModeContext.Provider>
   );
-});
 }
 
 export default ContextProvider

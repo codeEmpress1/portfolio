@@ -12,7 +12,6 @@ function App() {
       <div className="App">
         <ContextProvider>
           <Suspense fallback={<div>Loading...</div>}>
-            {/* <Button/> */}
             <Page1/>
           </Suspense>
         </ContextProvider>
