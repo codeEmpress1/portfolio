@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b61d5299.chunk.css",
+    "main.js": "/static/js/main.3e9f18ff.chunk.js",
+    "main.js.map": "/static/js/main.3e9f18ff.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.82402a24.js",
+    "runtime-main.js.map": "/static/js/runtime-main.82402a24.js.map",
+    "static/js/2.c8215051.chunk.js": "/static/js/2.c8215051.chunk.js",
+    "static/js/2.c8215051.chunk.js.map": "/static/js/2.c8215051.chunk.js.map",
+    "static/js/3.39fd2bc0.chunk.js": "/static/js/3.39fd2bc0.chunk.js",
+    "static/js/3.39fd2bc0.chunk.js.map": "/static/js/3.39fd2bc0.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a27302257b10fa0a63ba7bc1b4463c90.js": "/precache-manifest.a27302257b10fa0a63ba7bc1b4463c90.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.b61d5299.chunk.css.map": "/static/css/main.b61d5299.chunk.css.map",
+    "static/js/2.c8215051.chunk.js.LICENSE.txt": "/static/js/2.c8215051.chunk.js.LICENSE.txt",
+    "static/media/flight.jfif": "/static/media/flight.5cc1f6fd.jfif",
+    "static/media/food.jfif": "/static/media/food.115577df.jfif",
+    "static/media/rosemary5.png": "/static/media/rosemary5.e0fa7e00.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82402a24.js",
+    "static/js/2.c8215051.chunk.js",
+    "static/css/main.b61d5299.chunk.css",
+    "static/js/main.3e9f18ff.chunk.js"
+  ]
+}
